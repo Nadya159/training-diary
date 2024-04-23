@@ -1,16 +1,21 @@
 package com.nadya159.entity;
 
-import lombok.*;
+import com.nadya159.entity.types.Role;
+import lombok.Getter;
+import lombok.Builder;
+import lombok.AllArgsConstructor;
+import lombok.Setter;
 
 /**
  * Класс пользователей
  */
 @Getter
+@Setter
 @Builder
 @AllArgsConstructor
 public class User {
-    private String name;
-    private String email;
+    private Long id;
+    private String login;
     private String password;
     private Role role;
 }

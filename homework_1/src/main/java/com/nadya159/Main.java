@@ -1,10 +1,10 @@
 package com.nadya159;
 
-import com.nadya159.in.Menu.Menu;
-
+/**
+ * Точка входа в приложение. Запускает выполнение основной логики, вызывая {@link ApplicationRunner#run()}
+ */
 public class Main {
     public static void main(String[] args) {
-        Menu menu = new Menu();
-        menu.menuMain();
+        ApplicationRunner.run();
     }
 }

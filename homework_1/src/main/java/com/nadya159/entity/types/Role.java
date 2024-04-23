@@ -1,4 +1,4 @@
-package com.nadya159.entity;
+package com.nadya159.entity.types;
 
 /**
  * Enum вариантов ролей пользователей

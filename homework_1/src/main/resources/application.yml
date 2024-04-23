@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+  file:
+    name: ./logs/app.log
+    logrotate:
+      max-history: 10
+      max-size: 10MB
+  pattern:
+    console: "%d{dd-MM-yyyy HH:mm:ss.SSS} %-5level - %msg%n"
+    file: "%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
